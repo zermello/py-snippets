@@ -27,3 +27,9 @@ class Robots(Hum, Ani):
 
 robo = Robots(12, 18)
 print(f"{robo.abc} and {robo.id}")
+
+# non working code
+# def __add__(self, other):
+#     return self + other
+
+# __add__(1, 2)
